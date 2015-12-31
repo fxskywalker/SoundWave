@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C80FDE141B6BC6DD000AE6EB /* see.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C80FDE131B6BC6DD000AE6EB /* see.mp3 */; };
+		C8A783371B5C29A0003072DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A783361B5C29A0003072DE /* AppDelegate.swift */; };
+		C8A783391B5C29A0003072DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A783381B5C29A0003072DE /* ViewController.swift */; };
+		C8A7833C1B5C29A0003072DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8A7833A1B5C29A0003072DE /* Main.storyboard */; };
+		C8A7833E1B5C29A0003072DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8A7833D1B5C29A0003072DE /* Images.xcassets */; };
+		C8A783411B5C29A0003072DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8A7833F1B5C29A0003072DE /* LaunchScreen.xib */; };
+		C8A7834D1B5C29A0003072DE /* waveFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7834C1B5C29A0003072DE /* waveFormTests.swift */; };
+		C8A7835A1B5C2BCB003072DE /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A783591B5C2BCB003072DE /* SoundManager.swift */; };
+		C8A7835E1B5C2D3A003072DE /* UIView+Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A7835D1B5C2D3A003072DE /* UIView+Geometry.swift */; };
+		C8A783671B5C2ED0003072DE /* FVSoundWaveDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C8A783661B5C2ED0003072DE /* FVSoundWaveDemo-Info.plist */; };
+		C8A783691B5C34A7003072DE /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A783681B5C34A7003072DE /* Sound.swift */; };
+		C8B41AFF1B6C05CF00CFF9B6 /* rainbow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8B41AFE1B6C05CF00CFF9B6 /* rainbow.mp3 */; };
+		C8D64DAD1B7529F900BAD333 /* SoundWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D64DAC1B7529F900BAD333 /* SoundWaveView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8A783471B5C29A0003072DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8A783291B5C29A0003072DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8A783301B5C29A0003072DE;
+			remoteInfo = waveForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C80FDE131B6BC6DD000AE6EB /* see.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = see.mp3; sourceTree = "<group>"; };
+		C8A783311B5C29A0003072DE /* waveForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = waveForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A783351B5C29A0003072DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8A783361B5C29A0003072DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8A783381B5C29A0003072DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8A7833B1B5C29A0003072DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8A7833D1B5C29A0003072DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C8A783401B5C29A0003072DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C8A783461B5C29A0003072DE /* waveFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = waveFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A7834B1B5C29A0003072DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8A7834C1B5C29A0003072DE /* waveFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = waveFormTests.swift; sourceTree = "<group>"; };
+		C8A783591B5C2BCB003072DE /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		C8A7835D1B5C2D3A003072DE /* UIView+Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Geometry.swift"; sourceTree = "<group>"; };
+		C8A783651B5C2EA7003072DE /* FVSoundWaveDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FVSoundWaveDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C8A783661B5C2ED0003072DE /* FVSoundWaveDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FVSoundWaveDemo-Info.plist"; sourceTree = "<group>"; };
+		C8A783681B5C34A7003072DE /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		C8A7836A1B5C3B3D003072DE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C8A7836C1B5C3B4F003072DE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C8A7836E1B5C3B5B003072DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C8A783701B5C3B6B003072DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C8A783721B5C3B74003072DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C8B41AFE1B6C05CF00CFF9B6 /* rainbow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rainbow.mp3; sourceTree = "<group>"; };
+		C8D64DAC1B7529F900BAD333 /* SoundWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundWaveView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8A7832E1B5C29A0003072DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A783431B5C29A0003072DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8A783281B5C29A0003072DE = {
+			isa = PBXGroup;
+			children = (
+				C8A783331B5C29A0003072DE /* waveForm */,
+				C8A783491B5C29A0003072DE /* waveFormTests */,
+				C8A783751B5C3BBC003072DE /* Frameworks */,
+				C8A783321B5C29A0003072DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8A783321B5C29A0003072DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8A783311B5C29A0003072DE /* waveForm.app */,
+				C8A783461B5C29A0003072DE /* waveFormTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8A783331B5C29A0003072DE /* waveForm */ = {
+			isa = PBXGroup;
+			children = (
+				C8A783361B5C29A0003072DE /* AppDelegate.swift */,
+				C8A7833A1B5C29A0003072DE /* Main.storyboard */,
+				C8A783381B5C29A0003072DE /* ViewController.swift */,
+				C8A783681B5C34A7003072DE /* Sound.swift */,
+				C8D64DAC1B7529F900BAD333 /* SoundWaveView.swift */,
+				C8A783591B5C2BCB003072DE /* SoundManager.swift */,
+				C8A7835D1B5C2D3A003072DE /* UIView+Geometry.swift */,
+				C8A7833D1B5C29A0003072DE /* Images.xcassets */,
+				C8A7833F1B5C29A0003072DE /* LaunchScreen.xib */,
+				C8A783341B5C29A0003072DE /* Supporting Files */,
+			);
+			path = waveForm;
+			sourceTree = "<group>";
+		};
+		C8A783341B5C29A0003072DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C80FDE131B6BC6DD000AE6EB /* see.mp3 */,
+				C8B41AFE1B6C05CF00CFF9B6 /* rainbow.mp3 */,
+				C8A783651B5C2EA7003072DE /* FVSoundWaveDemo-Prefix.pch */,
+				C8A783661B5C2ED0003072DE /* FVSoundWaveDemo-Info.plist */,
+				C8A783351B5C29A0003072DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8A783491B5C29A0003072DE /* waveFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8A7834C1B5C29A0003072DE /* waveFormTests.swift */,
+				C8A7834A1B5C29A0003072DE /* Supporting Files */,
+			);
+			path = waveFormTests;
+			sourceTree = "<group>";
+		};
+		C8A7834A1B5C29A0003072DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8A7834B1B5C29A0003072DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8A783751B5C3BBC003072DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8A783721B5C3B74003072DE /* UIKit.framework */,
+				C8A783701B5C3B6B003072DE /* CoreGraphics.framework */,
+				C8A7836E1B5C3B5B003072DE /* Foundation.framework */,
+				C8A7836C1B5C3B4F003072DE /* AVFoundation.framework */,
+				C8A7836A1B5C3B3D003072DE /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8A783301B5C29A0003072DE /* waveForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A783501B5C29A0003072DE /* Build configuration list for PBXNativeTarget "waveForm" */;
+			buildPhases = (
+				C8A7832D1B5C29A0003072DE /* Sources */,
+				C8A7832E1B5C29A0003072DE /* Frameworks */,
+				C8A7832F1B5C29A0003072DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = waveForm;
+			productName = waveForm;
+			productReference = C8A783311B5C29A0003072DE /* waveForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8A783451B5C29A0003072DE /* waveFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A783531B5C29A0003072DE /* Build configuration list for PBXNativeTarget "waveFormTests" */;
+			buildPhases = (
+				C8A783421B5C29A0003072DE /* Sources */,
+				C8A783431B5C29A0003072DE /* Frameworks */,
+				C8A783441B5C29A0003072DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8A783481B5C29A0003072DE /* PBXTargetDependency */,
+			);
+			name = waveFormTests;
+			productName = waveFormTests;
+			productReference = C8A783461B5C29A0003072DE /* waveFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8A783291B5C29A0003072DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Anne Dong";
+				TargetAttributes = {
+					C8A783301B5C29A0003072DE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C8A783451B5C29A0003072DE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C8A783301B5C29A0003072DE;
+					};
+				};
+			};
+			buildConfigurationList = C8A7832C1B5C29A0003072DE /* Build configuration list for PBXProject "waveForm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8A783281B5C29A0003072DE;
+			productRefGroup = C8A783321B5C29A0003072DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8A783301B5C29A0003072DE /* waveForm */,
+				C8A783451B5C29A0003072DE /* waveFormTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8A7832F1B5C29A0003072DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A7833C1B5C29A0003072DE /* Main.storyboard in Resources */,
+				C8B41AFF1B6C05CF00CFF9B6 /* rainbow.mp3 in Resources */,
+				C8A783411B5C29A0003072DE /* LaunchScreen.xib in Resources */,
+				C8A7833E1B5C29A0003072DE /* Images.xcassets in Resources */,
+				C80FDE141B6BC6DD000AE6EB /* see.mp3 in Resources */,
+				C8A783671B5C2ED0003072DE /* FVSoundWaveDemo-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A783441B5C29A0003072DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8A7832D1B5C29A0003072DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A783391B5C29A0003072DE /* ViewController.swift in Sources */,
+				C8A783691B5C34A7003072DE /* Sound.swift in Sources */,
+				C8D64DAD1B7529F900BAD333 /* SoundWaveView.swift in Sources */,
+				C8A7835A1B5C2BCB003072DE /* SoundManager.swift in Sources */,
+				C8A7835E1B5C2D3A003072DE /* UIView+Geometry.swift in Sources */,
+				C8A783371B5C29A0003072DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A783421B5C29A0003072DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8A7834D1B5C29A0003072DE /* waveFormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8A783481B5C29A0003072DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8A783301B5C29A0003072DE /* waveForm */;
+			targetProxy = C8A783471B5C29A0003072DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8A7833A1B5C29A0003072DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8A7833B1B5C29A0003072DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8A7833F1B5C29A0003072DE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8A783401B5C29A0003072DE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8A7834E1B5C29A0003072DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8A7834F1B5C29A0003072DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8A783511B5C29A0003072DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = waveForm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8A783521B5C29A0003072DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = waveForm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Release;
+		};
+		C8A783541B5C29A0003072DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = waveFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waveForm.app/waveForm";
+			};
+			name = Debug;
+		};
+		C8A783551B5C29A0003072DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = waveFormTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/waveForm.app/waveForm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8A7832C1B5C29A0003072DE /* Build configuration list for PBXProject "waveForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A7834E1B5C29A0003072DE /* Debug */,
+				C8A7834F1B5C29A0003072DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A783501B5C29A0003072DE /* Build configuration list for PBXNativeTarget "waveForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A783511B5C29A0003072DE /* Debug */,
+				C8A783521B5C29A0003072DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A783531B5C29A0003072DE /* Build configuration list for PBXNativeTarget "waveFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8A783541B5C29A0003072DE /* Debug */,
+				C8A783551B5C29A0003072DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8A783291B5C29A0003072DE /* Project object */;
+}
